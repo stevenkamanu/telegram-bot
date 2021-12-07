@@ -18,7 +18,7 @@ PHP Telgram bot library
       $bot->webhook('delete');
 
      //run once url delete
-     //
+     //return json data  {"ok":true,"result":    {"url":"set domain callback url","has_custom_certificate":false,"pending_update_count":0,"max_connections":40,"ip_address":"127.0.0.1"}}
      $bot->webhook('info');]
      
 

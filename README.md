@@ -10,6 +10,7 @@ PHP Telgram bot library
      $bot->telegram_callback();
 
      //run once
+     //return json data {"ok":true,"result":true,"description":"Webhook was set"}
      $bot->webhook('set','url callback ');
 
      //run once url delete
@@ -17,6 +18,8 @@ PHP Telgram bot library
       $bot->webhook('delete');
 
      //run once url delete
-     $bot->webhook('info');
+     //
+     $bot->webhook('info');]
+     
 
   

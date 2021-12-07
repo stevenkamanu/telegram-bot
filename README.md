@@ -13,6 +13,7 @@ PHP Telgram bot library
      $bot->webhook('set','url callback ');
 
      //run once url delete
+     //return {"ok":true,"result":true,"description":"Webhook was deleted"}
       $bot->webhook('delete');
 
      //run once url delete

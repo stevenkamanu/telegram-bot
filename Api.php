@@ -6,7 +6,6 @@ class Api
 
     public function __construct($token = NULL)
     {
-        $this->CI = &get_instance();
         $this->telb_url = 'https://api.telegram.org/bot' . $token . '/';
     }
 

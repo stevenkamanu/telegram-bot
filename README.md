@@ -11,15 +11,15 @@ PHP Telgram bot library
 
      //run once
      //return json data {"ok":true,"result":true,"description":"Webhook was set"}
-     $bot->webhook('set','url callback ');
+     echo $bot->webhook('set','url callback ');
 
      //run once url delete
      //return {"ok":true,"result":true,"description":"Webhook was deleted"}
-      $bot->webhook('delete');
+      echo $bot->webhook('delete');
 
      //run once url delete
      //return json data  {"ok":true,"result":    {"url":"set domain callback url","has_custom_certificate":false,"pending_update_count":0,"max_connections":40,"ip_address":"127.0.0.1"}}
-     $bot->webhook('info');]
+     echo $bot->webhook('info');]
      
 
   

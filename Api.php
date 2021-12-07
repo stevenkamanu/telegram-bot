@@ -48,7 +48,7 @@ class Api
 
     public function send_message($chatId, $message)
     {
-        return $this->query($this->telb_url . 'sendMessage?chat_id=' . $chatId . '&text=' . $message);
+        return $this->query($this->telb_url . 'sendMessage?chat_id=' . $chatId . '&text=' . urlencode($message));
     }
 
    /** register call back url
